@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    "outDir": "./dist", // Onde vai ser a nossa pasta de destino, onde vai ter o código JavaScript puro.
+
+    "rootDir": "./src/",
+
+    "module": "node16",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
