@@ -1,0 +1,17 @@
+{
+  "name": "docker-api",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc"
+  },
+  "author": "Vinícius Gomes",
+  "license": "ISC",
+  "description": "API de exemplo para rodar no docker",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
