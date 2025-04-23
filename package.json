@@ -4,6 +4,7 @@
   "main": "server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
     "build": "tsc"
   },
   "author": "Vinícius Gomes",
